@@ -1,0 +1,22 @@
+{
+  "name": "static-domain-redirect",
+  "version": "1.0.0",
+  "repository": "https://github.com/fanonwue/static-domain-redirect",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc && node dist/index.js",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Fabian Wünderich",
+    "email": "fabian@wuenderich.de",
+    "url": "https://github.com/fanonwue"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "typescript": "^4.9.3"
+  }
+}
